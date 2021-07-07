@@ -1,4 +1,4 @@
-# Getting the dataset
+#Getting the dataset
 
 SELECT 
     c.year, 
