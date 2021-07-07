@@ -1,0 +1,11 @@
+# Getting the dataset
+
+SELECT 
+    c.year, 
+    c.city , 
+    c.avg_temp AS city_temp, 
+    g.avg_temp AS global_temp
+FROM city_data c
+JOIN global_data g
+ON c.year =g.year
+WHERE c.city = 'New York'
